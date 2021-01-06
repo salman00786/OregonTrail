@@ -5,28 +5,6 @@
 // an isHealthy property, with an initial value of true, which indicates whether a traveler is sick.
 // The Traveler class should also have the following methods:
 
-// class Traveler {
-//   constructor(name) {
-//     this.food = 1;
-//     this.name = name;
-//     this.isHealthy = true;
-//   }
-//   // hunt() – Increases the traveler's food by 2.
-//   hunt() {
-//     this.food += 2;
-//     //return this.food;
-//   }
-//   // eat() – Consumes 1 unit of the traveler's food.
-//   //If the traveler doesn't have any food left to eat, the traveler is no longer healthy (set isHealthy to false).
-
-//   eat() {
-//     if (this.food === 0) {
-//       this.isHealthy = false;
-//     } else {
-//       this.food -= 1;
-//     }
-//   }
-// }
 class Traveler {
   constructor(name) {
     this.name = name;

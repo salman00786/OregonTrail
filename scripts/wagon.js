@@ -41,7 +41,7 @@ class Wagon {
   totalFood() {
     let total = 0;
     for (let i = 0; i < this.passenger.length; i++) {
-      total += this.passenger[i].food;
+      total += this.passenger[i].foodAmount;
     }
     return total;
   }
